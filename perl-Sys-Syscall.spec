@@ -6,7 +6,7 @@
 %define	pdir	Sys
 %define	pnam	Syscall
 Summary:	Sys::Syscall - access system calls that Perl doesn't normally provide access to
-#Summary(pl.UTF-8):	
+Summary(pl.UTF-8):	Sys::Syscall - dostęp do wywołań systemowych, do których sam Perl nie daje dostępu
 Name:		perl-Sys-Syscall
 Version:	0.22
 Release:	1
@@ -21,11 +21,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Use epoll, sendfile, from Perl.  Mostly Linux-only support now, but
+Use epoll, sendfile, from Perl. Mostly Linux-only support now, but
 more syscalls/OSes planned for future.
 
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+Ten moduł pozwala używać wywołania takie jak epoll czy sendfile z
+poziomu Perla. Jak na razie obsługiwane są w większości wywołania
+tylko linuksowe, ale w przyszłości planowana jest obsługa większej
+liczby wywołań i systemów operacyjnych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
