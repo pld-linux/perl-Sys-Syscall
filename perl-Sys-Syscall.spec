@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Sys
 %define	pnam	Syscall
 Summary:	Sys::Syscall - access system calls that Perl doesn't normally provide access to
