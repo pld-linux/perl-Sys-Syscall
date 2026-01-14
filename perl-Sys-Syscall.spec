@@ -8,7 +8,7 @@ Summary:	Sys::Syscall - access system calls that Perl doesn't normally provide a
 Summary(pl.UTF-8):	Sys::Syscall - dostęp do wywołań systemowych, do których sam Perl nie daje dostępu
 Name:		perl-Sys-Syscall
 Version:	0.25
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sys/%{pdir}-%{pnam}-%{version}.tar.gz
